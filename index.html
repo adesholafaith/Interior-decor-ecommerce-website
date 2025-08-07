@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cozy Homes and Interiors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+  </head>
+
+  <body>
+    <header>
+        <div class="logo">Cozy Homes</div>
+      
+        <nav id="navbar" class="navbar">
+          <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#newin">New In</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="menu-toggle">
+            <svg id="menu-icon" class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#fff">
+              <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+            </svg>
+            <svg id="close-icon" class="close-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#fff" style="display:none;">
+              <path d="M249-207 207-249l231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/>
+            </svg>
+          </div>
+        </nav>
+
+      <div>
+        <a href="#" id="searchBtn" class="search-btn">
+        <input type="text" id="searchBar" placeholder="Search..." class="search-bar" />
+        <svg  class="icon"  xmlns="http://www.w3.org/2000/svg"  height="24px"  viewBox="0 -960 960 960"  width="24px"  padding-right="10px"  fill="#eee">
+          <path
+            d="M784-120 532-372q-30 
+            24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 
+            75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 
+            44-14 83t-38 69l252 252-56 56ZM380-400q75 0 
+            127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 
+            0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+        </svg></a>
+       <a href="#cart" id="cartBtn"> <svg class="icon"  xmlns="http://www.w3.org/2000/svg"  height="24px"  viewBox="0 -960 960 960"  width="24px"  fill="#eee">
+          <path
+            d="M160-280v-480H80v-80h160v480h600v80H160Zm80 
+            200q-33 0-56.5-23.5T160-160q0-33 23.5-56.5T240-240q33 
+            0 56.5 23.5T320-160q0 33-23.5 56.5T240-80Zm40-320v-240h240v240H280Zm80-80h80v-80h-80v80Zm200 
+            80v-240h240v240H560Zm80-80h80v-80h-80v80ZM760-80q-33 0-56.5-23.5T680-160q0-33 
+            23.5-56.5T760-240q33 0 56.5 23.5T840-160q0 33-23.5 56.5T760-80ZM360-480h80-80Zm280 0h80-80Z"
+          />
+        </svg></a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Transform Your Space with Style</h1>
+        <p>Elegant, modern, and timeless interior designs</p>
+        <a href="#services" class="btn">Explore Services</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+      <div class="service-container">
+        <div class="service-card">
+          <div>
+            <img src="./img/image-4.jpg" alt="" />
+            <span class="card-heading card-heading-1">interior Design</span>
+          </div>
+          <div class="card-details">
+            <ul>
+              <li>Layout Structuring</li>
+              <li>Color Coordination</li>
+              <li>Material Selection</li>
+              <li>Lighting Setup</li>
+            </ul>
+          </div>
+          <a class="service-btn" href="#contact">Book Service</a>
+        </div>
+        <div class="service-card">
+          <div>
+            <img src="./img/image-2.jpg" alt="" />
+            <span class="card-heading">Home Decor</span>
+          </div>
+          <div class="card-details">
+            <ul>
+              <li>Style Enhancement</li>
+              <li>Accessory placement</li>
+              <li>Wall Art</li>
+              <li>Fabric Choices</li>
+            </ul>
+          </div>
+          <a class="service-btn" href="#contact">Book Service</a>
+        </div>
+        <div class="service-card">
+          <div>
+            <img src="./img/image-3.jpg" alt="" />
+            <span class="card-heading">Space planning</span>
+          </div>
+          <div class="card-details">
+            <ul>
+              <li>Room Zoning</li>
+              <li>Flow Optimization</li>
+              <li>Furniture Arrangement</li>
+              <li>Storage Solutions</li>
+            </ul>
+          </div>
+          <a class="service-btn" href="#contact">Book Service</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h2>Products</h2>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="./img/image-10.jpg" alt="" />
+          <h4>Light cream 2-seater plush cushioned sofa with wide armrests</h4>
+          <p class="price-tag">₦280,000.00 NGN</p>
+          <button class="cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="./img/image-11.jpg" alt="" />
+          <h4>Dark grey modern 2-seater sofa with slim wooden legs</h4>
+          <p class="price-tag">₦250,000.00 NGN</p>
+          <button class="cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="./img/image-12.jpg" alt="" />
+          <h4>Mid-century modern rich Brown leather 3-seater sofa</h4>
+          <p class="price-tag">₦300,000.00 NGN</p>
+          <button class="cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="./img/image-13.jpg" alt="" />
+          <h4>Artistic and bold burnt orange 2-seater sofa</h4>
+          <p class="price-tag">₦250,000.00 NGN</p>
+          <button class="cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="./img/image-14.jpg" alt="" />
+          <h4>Wooden Lounge Chair With Black Cushion</h4>
+          <p class="price-tag">₦120,000.00 NGN</p>
+          <button class="cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="./img/image-15.jpg" alt="" />
+          <h4>Ergonomic Mesh Rolling Work Chair With Adjustable Height</h4>
+          <p class="price-tag">₦100,000.00 NGN</p>
+          <button class="cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="./img/image-16.jpg" alt=""/>
+          <h4>Luxurious dark brown velvet wideseat armchair</h4>
+          <p class="price-tag">₦120,000.00 NGN</p>
+          <button class="cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="./img/image-17.jpg" alt="" />
+          <h4>Soft light grey armchair with thick padded arms</h4>
+          <p class="price-tag">₦150,000.00 NGN</p>
+          <button class="cart-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <a href="products.html"><button class="product-btn">View all &rarr;</button></a> 
+
+      <div class="products-container">
+        <div class="products-flex">
+          <div class="flex-card">
+            <img src="./img/image-8.jpg" alt="" />
+            <a href="products.html"><a href="products.html"><h4>Chairs &rarr;</h4></a> 
+          </div>
+
+          <div class="flex-card">
+            <img src="./img/image-1.jpg" alt="" />
+            <a href="products.html"><h4>Tables &rarr;</h4></a>
+          </div>
+
+          <div class="flex-card">
+            <img src="./img/image-9.jpg" alt="" />
+            <a href="products.html"><h4>Furniture &rarr;</h4></a>
+          </div>
+
+          <div class="flex-card">
+            <img src="./img/image-18.jpg" alt="" />
+            <a href="products.html"><h4>Accesories &rarr;</h4></a>
+          </div>
+
+          <div class="flex-card">
+            <img src="./img/image-19.jpg" alt="" />
+            <a href="products.html"><h4>Lamps &rarr;</h4></a>
+          </div>
+
+          <div class="flex-card">
+            <img src="./img/image-20.jpg" alt="" />
+            <a href="products.html" class="flex-link"><h4>Fragrances &rarr;</h4></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="new-products" id="newin">
+      <h2>New in</h2>
+
+      <div class="carousel">
+        <div class="products-flex" id="productFlex"></div>
+
+        <div class="pagination">
+          <button onclick="prevPage()">‹</button>
+          <span id="pageIndicator">1/1</span>
+          <button onclick="nextPage()">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="book">
+        <div class="book-form">
+          <form action="#">
+            <h2>Get in Touch</h2>
+
+            <div>
+              <input type="text" class="form-input" placeholder="Full Name" id="name" required/>
+              <label for="name" class="form-label">Full name</label>
+            </div>
+
+            <div>
+              <input type="email" class="form-input" placeholder="Email Address" id="email" required/>
+              <label for="email" class="form-label">Email Address</label>
+            </div>
+
+            <div>
+              <select class="form-input" name="subject" id="subject">
+                <option value="">--Select Subject--</option>
+                <option value="">Interior Design</option>
+                <option value="">Home Decor</option>
+                <option value="">Space Planning</option>
+              </select>
+              <label for="subject" class="form-label">Subject</label>
+            </div>
+
+            <div>
+              <textarea  name="message"  id="message"  class="form-input"  placeholder="Send Message"></textarea>
+              <label for="message" class="form-label">Message</label>
+            </div>
+
+            <div>
+              <button class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h3>Here's what our customers are saying</h3>
+      <div class="flex-paragraph">
+        <p class="flex-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eveniet
+          voluptatem repellat, veritatis minus, et eaque facere nam aut deleniti
+          unde corporis cumque amet illo velit. Repudiandae ipsum ducimus
+          eveniet, voluptatem modi sequi accusantium eos repellat? Quis
+          dignissimos tempore obcaecati. <br />
+          <i>" John Doe "</i>
+        </p>
+
+        <p class="flex-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quam iure
+          ullam, sapiente quisquam ad aliquam quis nostrum eius! Voluptatem,
+          facere? Eligendi voluptate nulla dolores doloremque rerum molestiae,
+          assumenda necessitatibus deleniti voluptatem at. Assumenda ex, quidem
+          distinctio porro deserunt repudiandae. <br />
+          <i>" Jane Doe "</i>
+        </p>
+      </div>
+    </section>
+
+    <section class="popup" id="cart">
+      <div class="popup__content" id="popup">
+         <a href="#cart" class="popup__close" id="popupClose">&times;</a>
+         <h2>My Cart</h2>
+         <label><input type="radio" name="select">&nbsp; Select all</label>
+
+        <div class="items">
+          <input type="radio" checked>
+          <img src="./img/image-12.jpg" alt="">
+          <div class="details">
+            <p class="title">Mid-century modern rich Brown leather 3-seater sofa</p>
+            <p class="price">₦250,000.00 NGN</p>
+          </div>
+          <div class="quantity">
+            <button>-</button> <span>1</span> <button>+</button>
+          </div>
+          <button class="remove">×</button>
+        </div>
+
+        <div class="items">
+          <input type="radio">
+          <img src="./img/image-16.jpg" alt="">
+          <div class="details">
+            <p class="title">Luxurious dark brown velvet wideseat armchair</p>
+            <p class="price">₦120,000.00 NGN</p>
+          </div>
+          <div class="quantity">
+            <button>-</button> <span>1</span> <button>+</button>
+          </div>
+          <button class="remove">×</button>
+        </div>
+
+         <a href="#" class="btn checkout">checkout</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-navigation">
+        <div>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="#" class="footer-link">Company</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Privacy policy</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-icons">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank"></a>
+              <img src="./icons/icon-facebook.svg" alt="" />
+            </li>
+            <li>
+              <a href="https://www.youtube.com" target="_blank"></a>
+              <img src="./icons/icon-youtube.svg" alt="" />
+            </li>
+            <li>
+              <a href="https://www.pinterest.com" target="_blank"></a>
+              <img src="./icons/icon-pinterest.svg" alt="" />
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank"></a>
+              <img src="./icons/icon-instagram.svg" alt="" />
+            </li>
+            <li>
+              <a href="https://www.twitter.com" target="_blank"></a>
+              <img src="./icons/icon-twitter.svg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p>&copy; 2025 Cozy Homes and Interiors. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+<!-- Living Room Furniture: Sofas, armchairs, coffee tables, side tables, and media consoles.
+Dining Room Furniture: Dining tables, chairs, sideboards, and buffets.
+Bedroom Furniture: Beds, dressers, nightstands, and wardrobes.
+Outdoor Furniture: Patio sets, lounge chairs, dining tables, and parosols. -->
+
+
