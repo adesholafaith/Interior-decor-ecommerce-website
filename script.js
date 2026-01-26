@@ -117,17 +117,3 @@ cartBtn.onclick = () => {
   cart.style.display = "block";
 };
 
-const searchBtn = document.getElementById("searchBtn");
-const searchBar = document.getElementById("searchBar");
-
-searchBtn = addEventListener("click", () => {
-  if (searchBar.classList.contains("active")) {
- searchBar.classList.remove("active");
-  searchBar.style.display = "none";
-} else {
-  searchBar.style.display = "inline-block";
-  setTimeout(() => 
-  searchBar.classList.add("active"), 10);
-  searchBar.focus();
-}
-});
